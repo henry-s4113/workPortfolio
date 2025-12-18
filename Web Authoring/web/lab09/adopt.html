@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- Henry Sheehan Final Project -->
+	<title>Puppy Palace - Home - Lab 9 </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="dogs-landscape.css" rel="stylesheet" media="only screen and (min-width: 501px)" />
+	<link href="dogs-portrait.css" rel="stylesheet" media="only screen and (max-width: 500px)" />
+	<link href="dogs-print.css" rel="stylesheet" media="print" />
+	<script src="modernizr-1.5.js"></script>
+	
+
+</head>
+<body>
+<div id="wrapper">
+	<header>
+		<div id="logo">The Puppy Palace - Lab 9 </div>
+	
+		<nav id="topNav">
+			<a href="index.html">Home</a>
+			<a href="train.html">Training</a>
+			<a href="breeds.html">Breeds</a>
+			<a href="care.html">Care & Feeding</a>
+			<a href="adopt.html">Adoption</a>
+			<a href="success.html">Success&nbsp;Stories</a>
+			<a href="faq.html">FAQ</a>
+			<a href="contact.html">Contact</a>
+			<a href="../../index.html">Site&nbsp;Map</a>
+		</nav>
+	</header>
+	
+  <nav id="sideNav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="train.html">Training</a></li>
+            <li><a href="breeds.html">Breeds</a></li>
+            <li><a href="care.html">Care & Feeding</a></li>
+            <li><a href="adopt.html">Adoption</a></li>
+            <li><a href="success.html">Success Stories</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="../../index.html">Site Map</a></li>
+        </ul>
+    </nav>
+	
+	<main>
+		<article> 
+			<h3>Adoption Form</h3>	
+
+			<form method="post" action="https://www.w3schools.com/action_page.php">
+				<fieldset id="contactInfo">
+					<legend>Contact Info</legend>
+					<label class="labelCol" for="fname">First name:</label>
+					<input type="text" id="fname" name="fname" value="" />
+					<br /><label class="labelCol" for="lname">Last name:</label>
+					<input type="text" id="lname" name="lname" value="" size="50" />
+					<br /><label class="labelCol" for="address">Address:</label>
+					<input type="text" id="address" name="address" value="" size="50" />
+					<br /><label class="labelCol" for="city">City:</label>
+					<input type="text" id="city" name="city" value="" />
+					<br /><label class="labelCol" for="state">State:</label>
+					<input type="text" id="state" name="state" value="" size="2" />
+					<br /><label class="labelCol" for="zip">Zip</label>
+					<input type="text" id="zip" name="zip" value="" size="5" />
+					<br /><label class="labelCol" for="email">Email:</label>
+					<input type="text" id="email" name="email" value="" size="40" />
+					<br /><label class="labelCol" for="phone">Phone:</label>
+					<input type="text" id="phone" name="phone" value="" size="15" />
+			
+				</fieldset>
+			
+				<fieldset>
+					<legend>Type of pet you want</legend>
+					<select name="petType" id="petType">
+						<option value="dog">Dog</option>
+						<option value="cat">Cat</option>
+						<option value="hamster">Hamster</option>
+						<option value="fish">Fish</option>
+						<option value="bird">Bird</option>
+						<option value="other">Other</option>  <!-- selected="selected" -->
+					</select>	
+				</fieldset>
+				<fieldset id="petSize">
+					<legend>Size of pet</legend>
+					<input type="radio" name="size" id="sizeLarge" value="sizeLarge" />Large
+					<br /><input type="radio" name="size" id="sizeMedium" value="sizeMedium" />Medium
+					<br /><input type="radio" name="size" id="sizeSmall" value="sizeSmall" />Small
+				</fieldset>
+				<fieldset id="petAge">
+					<legend>Age of pet</legend>
+					<input type="radio" name="age" id="agePuppy" value="agePuppy" />Puppy
+					<br /><input type="radio" name="age" id="ageAdult" value="ageAdult" />Adult
+					<br /><input type="radio" name="age" id="ageOld" value="ageOld" />Old
+				</fieldset>
+				<fieldset id="petPersonality">
+					<legend>Personality</legend>
+					<input type="checkbox" id="housebroken" name="housebroken" value="housebroken" /><label for="housebroken">Housebroken</label>
+					<br /><input type="checkbox" id="plays" name="plays" value="plays" /><label for="plays">Likes to play</label>
+					<br /><input type="checkbox" id="barks" name="barks" value="barks" /><label for="barks">Barks</label>
+					<br /><input type="checkbox" id="fetches" name="fetches" value="fetches" /><label for="fetches">Fetches</label>
+				</fieldset>
+			
+				<fieldset>
+					<legend>Comments</legend>
+					<textarea id="comments" name="commments" rows="10" cols="30" ></textarea>
+				</fieldset>
+			
+				
+				<br /><input type="checkbox" id="ageVerify" name="ageVerify" value="ageVerify" /><label for="ageVerify">I declare that I am at least 13 years old.</label>
+				<br /><input type="checkbox" id="spam" name="spam" value="spam" checked="checked" /><label for="spam">Please spam me!</label>
+				
+			
+				<br /><input type="submit" value="Do it now!" />            
+				<input type="reset" value="Never mind!" />
+			</form>
+			
+		</article>
+	</main>
+	
+	<footer>
+		Puppy Palace, for all your pet needs. 
+		<address>
+			123 Main St, Eugene, OR 97405 &copy; 2002-2024 <a href="mailto:email@petpalace.com">email@petpalace.com</a>
+		</address>
+	</footer>
+</div>
+</body>
+</html>

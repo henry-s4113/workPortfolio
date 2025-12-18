@@ -1,0 +1,165 @@
+/* Henry Sheehan's CIS195 CSS for Lab3 */
+/* Obnoxious Lime Green for testing -- border: 1px solid #0f0; */
+
+body
+{
+	color: #000;
+	background-color: #A9A9A9;
+	
+	
+
+
+header
+{
+	color: #111;
+}
+
+h1
+{
+	background-color: pink;
+	border: 2px solid #000;
+	padding-left: 3rem;
+}
+
+h2
+{
+	text-decoration: underline;
+	border: 1px #000;
+}
+
+h3
+{
+	
+}
+
+nav a:link
+{
+	border: 1px solid #000;
+	padding: 10px;
+	border-radius: 20px;
+	background-color: #ADD8E6;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+nav a:visited {color:purple} 	
+nav a:hover {
+  background-color: pink;
+  font-size: 18px;
+}
+nav a:active, nav a:focus {color; pink}
+
+a:link {color:blue;}
+a:visited {color:purple}
+a:hover
+a:active
+
+p
+{
+	padding: 1.5rem;
+	
+}
+
+hr
+{
+	
+}
+
+main
+{
+	background-color: #ADD8E6;
+	color: 00000;
+	border: 1px solid #000;
+}
+article
+{
+	
+}
+
+aside
+{
+	float: right;
+	width: 250px;
+	background-color: #D3D3D3;
+	border: 1px solid #000;
+	padding-left: .5rem;
+	margin-left: .5rem;
+	border-radius: 25px
+}
+
+blockquote
+{
+
+}
+
+table
+{
+	
+}
+
+tr
+{
+	
+}
+
+th
+{
+	
+}
+
+td
+{
+	
+}
+
+ol
+{
+	
+}
+
+ul
+{
+	
+}
+
+li
+{
+	
+}
+
+dl
+{
+	
+}
+
+dt
+{
+	
+}
+
+dd
+{
+	
+}
+
+details
+{
+	
+}
+
+summary
+{
+	
+}
+
+footer
+{
+	
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	background-color: pink;
+}
+
+address
+{
+	
+}

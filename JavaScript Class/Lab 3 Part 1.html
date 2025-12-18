@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- saved from url=(0085)https://lcc-cit.github.io/CS133JS-CourseMaterials/Labs/Lab03/CS133JS_Lab03_Part1.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Written by Brian Bird 4/17/23, revised 1/29/24 -->
+    
+    <script src="Lab03_Part1.js"></script>
+    <title>Lab 3 Part 1</title>
+</head>
+
+<body>
+    <header>
+        <h1>CS 133JS, Lab 3, Part 1</h1>
+        <p>This part of your lab assignment is to solve the problems described in
+            <a href="https://lcc-cit.github.io/CS133JS-CourseMaterials/Labs/Lab03/CS133JS_Lab03_Instructions_Part1.html" target="_blank">
+                the instructions for lab 3, part 1</a>. Only add code to this file where there are comments that start with TODO.
+        </p>
+    </header>
+    <h2>Solutions</h2>
+
+    <h3>1. Check for A+</h3>
+    <script>
+       document.write(checkForAPlus(97) + "<br>");
+       document.write(checkForAPlus(98) + "<br>");
+        /* TODO: call the checkForAPlus function twice, once with an argument of 97 and then 98.
+                           Show results of both function calls on the web page */
+    </script>
+
+    <h3>2. Check for A+, A, A- </h3>
+    <script>
+            document.write(checkForAnyA(89) + "<br>");
+            document.write(checkForAnyA(92) + "<br>");
+            document.write(checkForAnyA(95) + "<br>");
+            document.write(checkForAnyA(98) + "<br>");
+            document.write(checkForAnyA(100) + "<br>");
+        /* TODO: Writefunction calls to checkForAnyA. 
+                        Call the function just enough times, using "hard coded" numbers, so that you get each possible result once. 
+                       Display results on the web page.  */
+    </script>
+
+    <h3>3. Letter to GPA conversion</h3>
+    <script>
+        document.write(gpaConversion("A+") + "<br>");
+        document.write(gpaConversion("A") + "<br>");
+        document.write(gpaConversion("A-") + "<br>");
+        /* TODO: Call the gpaConversion function just enough times, using "hard coded" numbers, so that you get each possible result once.
+                         Display the results on the web page. */
+    </script>
+
+    <h3>4. Check file upload</h3>
+    <script>
+        document.write(checkFileType("doc") + "<br>");
+        document.write(checkFileType("docx") + "<br>");
+        document.write(checkFileType("pdf") + "<br>");
+        /* TODO: Write just enouth function calls to checkFileType to check for all the possible results using "hard coded" strings. 
+                        Show the results on the web page. */
+    </script>
+
+    <h3>5. Two factor authentication</h3>
+    <script>
+        document.write(authenticate("John", 1234) + "<br>");
+        /* TODO: Call the authenticate function just enough times, using "hard coded" values, so that you get each possible result once. 
+                         Show the results on the web page. */
+    </script>
+
+    <h3>6. Kindergarten admission</h3> - OPTIONAL
+    <script>
+        /* TODO: Call the canStartKindergarten function just enough times, using "hard coded" values, so that you get each possible result once. 
+                        Show the results on the web page.
+    </script>
+
+    <h3>7. Roman numeral convertor</h3>
+    <script>
+        document.write(romanToDecimal("I") + "<br>");
+        document.write(romanToDecimal("II") + "<br>");
+        document.write(romanToDecimal("III") + "<br>");
+        document.write(romanToDecimal("IV") + "<br>");
+        document.write(romanToDecimal("V") + "<br>");
+        /* TODO: Call the funciton, romanToDecimal, just enough times, using "hard coded" values, so that you get each possible result once. 
+                       Show the results on the web page. */
+    </script>
+
+    <h3>8. Phone dial pad letters</h3> - OPTIONAL
+    <script>
+        /* TODO: Call the convertDialPad function just enough times, using "hard coded" values, so that you get each possible result once. 
+                        Show the results on the web page. */
+    </script>
+    <footer>
+        <p>Creative Commons License for Beginning JavaScript Lab Exercises by Brian Bird, written in 2023, are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</p>
+    </footer>
+
+
+</body></html>

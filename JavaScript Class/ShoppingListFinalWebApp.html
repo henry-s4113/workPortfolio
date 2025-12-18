@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="Webpage description goes here" />
+    <meta charset="utf-8">
+    <title>Henry's Shopping List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        thead { font-size: larger; }
+        table, td, th { border-collapse: collapse; border-style: solid; padding: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Shopping List - Web App</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Items</th>
+                <th>Priority</th>
+                <th>Quantity</th>
+                <th>Done</th>
+            </tr>
+        </thead>
+        <tbody id="listRows">
+            <tr id="hiddenRow" hidden>
+                <td></td>
+                <td></td>
+                <td><button>Delete</button></td>
+                <td></td> <!-- Priority -->
+                <td></td> <!-- Quantity -->
+                <td><input type="checkbox"></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+              <td colspan='5'>
+                <input id="itemName" placeholder="New Item">
+                <input id="priority" placeholder="Priority">
+                <input id="quantity" placeholder="Quantity">
+                <button onclick="addRowAndItem()">Add New Item</button>
+                <button onclick="sortByPriority()">Sort by Priority</button>
+                <button onclick="deleteCheckedItems()">Delete Checked Items</button>
+                
+            </td>
+            </tr>
+        </tfoot>
+    </table>
+    <script src="ShoppingListFinalJava.js"></script>
+</body>
+</html>

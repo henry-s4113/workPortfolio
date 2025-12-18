@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <script src="Lab 2 Part 2.js" defer></script>
+</head>
+<body>
+    <h1>Celicius to Fahrenheit Temperature Converter</h1>
+   Press the button and enter the tempareture in Celcius  &nbsp;
+    <input id="celsius" type = "number"><button onclick="doConvertTemp()">Enter</button>
+    <br> Your answer is <span id="tempFahrenheit"></span><br>
+    <script>
+        function doConvertTemp() 
+        {
+            let degreesCelsius = parseFloat(document.getElementById("celsius").value);
+            let result = convertTemp(degreesCelsius);
+            document.getElementById("tempFahrenheit").innerHTML = result
+        }
+    </script>
+</body>
+</html>

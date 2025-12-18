@@ -1,0 +1,25 @@
+/* Andrea Hirons's CIS195 CSS for Lab 5 */
+/* Obnoxious Lime Green for testing -- border: 1px solid #0f0; */
+
+
+@media screen
+{	/* Start style sheet for landscape screen */
+
+
+/* All screen styles go here, inside the screen media query. All of the previous css. */
+
+
+
+
+}  /* End style sheet for landscape screen */
+
+
+@media print
+{ /* Start style sheet for print */
+
+
+/* All print styles go here, inside the print media query. New css, written specifically for printing. */
+
+
+	
+} /* End style sheet for print */

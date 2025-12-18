@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill Blank In</title>
+    <script src="Lab 2 Part 2.js" defer></script>
+</head>
+<body>
+    <h1>Fill in the Blank</h1>
+    <ol>
+        <li>
+            The capital of Eugene is ____.<input type="text" id="capital">
+            <button onclick="checkAnswer(document.getElementById('capital').value, correctAnswers[0], 'result1')">Check</button>
+            <span id="result1"></span>
+        </li>
+        <li>
+            Werewolves transform at night when it's a full ____.<input type="text" id="nightSky">
+            <button onclick="checkAnswer(document.getElementById('nightSky').value, correctAnswers[1], 'result2')">Check</button>
+            <span id="result2"></span>
+        </li>
+        <li>
+            The alphabet has __ letters.<input type="text" id="alphabet">
+            <button onclick="checkAnswer(document.getElementById('alphabet').value, correctAnswers[2], 'result3')">Check</button>
+            <span id="result3"></span>
+        </li>
+        <li>
+            The American Flag is Red, White and ____.<input type="text" id="flagColor">
+            <button onclick="checkAnswer(document.getElementById('flagColor').value, correctAnswers[3], 'result4')">Check</button>
+            <span id="result4"></span>
+        </li>
+        <li>
+            The main three heroes in the Justice League are Superman, Wonder Woman and ______.<input type="text" id="superHero">
+            <button onclick="checkAnswer(document.getElementById('superHero').value, correctAnswers[4], 'result5')">Check</button>
+            <span id="result5"></span>
+        </li>
+        <li>
+            The two colors used in 3D movie glasses are Blue and ___.<input type="text" id="movieGlasses">
+            <button onclick="checkAnswer(document.getElementById('movieGlasses').value, correctAnswers[5], 'result6')">Check</button>
+            <span id="result6"></span>
+        </li>
+        <li>
+            Tree leaves are usually the color ______.<input type="text" id="treeLeaves">
+            <button onclick="checkAnswer(document.getElementById('treeLeaves').value, correctAnswers[6], 'result7')">Check</button>
+            <span id="result7"></span>
+        </li>
+    </ol>
+</body>
+</html>

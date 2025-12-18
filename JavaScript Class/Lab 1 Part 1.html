@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- saved from url=(0085)https://lcc-cit.github.io/CS133JS-CourseMaterials/Labs/Lab01/CS133JS_Lab01_Part1.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Written by Brian Bird, 4/3/23, revised 1/6/24 -->
+    
+    <title>Lab 1 Part 1</title>
+</head>
+
+<body>
+    <h1>CS 133JS, Lab 1, Part 1</h1>
+    This part of your lab assignment is to run the examples in
+    <a href="https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/up%20%26%20going/ch1.md#try-it-yourself">
+        You Don't Know JS: Up and Going, Ch. 1</a> in a browser console, then copy them to this HTML file and run them again there. Instructions:
+    <ol>
+        <li>
+            Copy the code from the book to the console and run it. Experiment with it by changing the code so it produces different results, but still uses the same main JS feature.
+        </li>
+        <li>
+            Change the calls that produce output from <code>console.log()</code> to <code>document.write()</code> so that the Output goes to the web page instead of the console.
+        </li>
+        <li>
+            Copy and paste the code into the script element in the source code for this web page. Replace the comment <code>// put your code here</code> with your code.
+        </li>
+    </ol>
+
+    <script>
+        document.write("<h2>1. Try it Yourself </h2>");
+      
+            a = 21;
+
+            b = a * 2;
+
+            document.write( b );
+
+        document.write("<h2>2. Output </h2>");
+      
+            a = 21;
+
+            b = a * 2;
+
+            alert( b );
+
+        document.write("<h2>3. Input </h2>");
+      
+            age = prompt( "Please tell me your age:" );
+
+            document.write( age );
+
+        document.write("<h2>4. Operators </h2>");
+            
+            var a = 20;
+
+            a = a + 1;
+            a = a * 2;
+
+            document.write( a );
+
+        document.write("<h2>5. Converting Between Types</h2>");
+            
+            var a = "42";
+            var b = Number( a );
+
+            document.write( a );    // "42"
+            document.write( b );    // 42
+
+        document.write("<h2>7. Code Comments</h2>");
+            
+            var a = /* the meaning of life itself */ 42;
+
+            document.write( a );	// 42
+
+        document.write("<h2>8. Variables</h2>");
+            var amount = 99.99;
+
+            amount = amount * 2;
+
+            document.write( amount );		// 199.98
+
+            // convert `amount` to a string, and
+            // add "$" on the beginning
+            amount = "$" + String( amount );
+
+            document.write( amount );		// "$199.98"
+
+
+    </script>
+    <footer>
+        Creative Commons License for Beginning JavaScript Lab Exercise by Brian Bird, written in 2018, revised in 2023, are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+    </footer>
+
+
+</body></html>

@@ -1,0 +1,234 @@
+/* Andrea Hirons's CS195 starting CSS for The Puppy Palace - Lab 7 */
+/* Obnoxious Lime Green for testing -- border: 1px solid #0f0; */
+
+
+body
+{
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+#wrapper
+{
+	border: 2px solid #006;
+	background-color: #ccc;
+}
+
+header
+{
+	background-color: beige;
+}
+
+#logo
+{
+	font-family: "Comic Sans MS" , Verdana, Helvetica, Arial, sans-serif;
+	color: #006;
+	line-height: 117px;
+	font-weight: bold;
+	font-size: 2rem;
+	background-image: url("pics/doglogo.png");
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-family: "Comic Sans MS", Verdana, Helvetica, Arial, sans-serif;
+	color: #004;
+}
+
+nav
+{
+
+}
+
+/* Links in rest of page */
+
+/* 
+a:link {color: blue;}
+a:visited {color: pink;}
+a:hover  {color: red;}
+a:active, a:focus {color: yellow;}  */
+
+#topNav
+{
+	background-color: #fcf;
+	border-top: 2px solid #f9f;
+	border-bottom: 2px solid #f9f; /* #909 med purple #303 dark purple */
+	padding: 5px;
+	text-align: center;
+	line-height: 1.8em;	
+}
+
+#topNav a:link 
+{
+	color: rgba(51,0,51,.7);	
+	border: 1px solid rgba(51,0,51,.7);
+	background-color: rgba(51,0,51,.3);
+	border-radius: 5px;
+	padding: 2px;
+	text-decoration: none;
+}
+
+#topNav a:visited 
+{
+	color: #fcf;
+	border: 1px solid rgba(51,0,51,.5);
+	background-color: rgba(51,0,51,.5);
+}
+
+#topNav a:hover   
+{
+	color: rgba(51,0,51,.6);
+	border: 1px solid rgba(51,0,51,.6);
+	background-color: rgba(51,0,51,.4);
+	color: beige;
+}
+
+#topNav a:active, #topNav a:focus  
+{
+	color: rgba(102,0,102,.6);
+	border: 1px solid rgba(102,0,102,.6);
+	background-color: rgba(102,0,102,.4);
+} 
+
+#sideNav /* Left Column */
+{
+	display: none;
+}
+
+#sideNav ul
+{
+	margin: 0px;
+    padding: 0px;
+}
+
+#sideNav li
+{
+	list-style-type: none;
+    line-height: 1.5;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    padding-left: 5px;
+}
+
+#sideNav li:hover
+{
+ background-color: #fcf;
+}
+
+#sideNav a
+{
+    text-decoration: none;
+}
+
+section
+{
+	background-color: #ffc;
+	padding: 5px; 
+	border-left: 2px solid #ff9;
+}
+
+
+main /* Right Column */
+{
+	background-color: #ffc;
+	padding: 5px;
+	border-left: 2px solid #ff9;
+}
+
+.washout
+{
+	background-color: rgba(255,255,255,.5);
+}
+
+acticle
+{
+	padding: 5px;
+}
+
+aside
+{
+	background-color: #fcf;
+	border-left: 2px solid #f9f;
+	padding: 5px;
+	margin-left: 5px;
+	margin-right: -5px;
+}
+
+aside img /* same code as img-left class, really should do one or the other */
+{
+
+}
+
+footer
+{
+	background-color:#fcf;
+	border-top: 2px solid #f9f; /* #909 med purple #303 dark purple */
+	color: #303;
+	border-top: 2px solid #f9f;
+	font-size: 0.8em;
+	padding: 5px; 
+}
+
+address
+{
+
+}
+
+/* Table Styles */
+table, td, th 
+{ 
+
+}
+
+td
+{
+
+}
+
+th
+{
+
+}
+
+.rowHeader  /* th */
+{
+
+}
+
+dl
+{
+	
+}
+
+dt
+{
+	font-family: "Comic Sans MS", Verdana, Helvetica, Arial, sans-serif;
+	color: #006;
+	font-weight: bold;
+}
+
+dd
+{
+	margin-left: 20px;
+}
+img
+{
+	
+}
+
+.img-left
+{
+	float: left;
+	margin-right: 5px;
+}
+
+.img-right
+{
+	float: right;
+}
+
+h4.listHeader
+{
+	margin-bottom: -15px;
+}
