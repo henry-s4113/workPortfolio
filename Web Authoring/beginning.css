@@ -4,7 +4,7 @@
 body
 {
 	color: #000;
-	background-color: #A9A9A9;
+	background-color: #196b24;
 	
 	
 
@@ -16,7 +16,7 @@ header
 
 h1
 {
-	background-color: pink;
+	background-color: #73ba7e;
 	border: 2px solid #000;
 	padding-left: 3rem;
 }
@@ -156,7 +156,7 @@ footer
 	
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
-	background-color: pink;
+	background-color: #73ba7e;
 }
 
 address
